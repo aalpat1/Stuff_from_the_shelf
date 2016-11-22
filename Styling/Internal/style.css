@@ -69,7 +69,7 @@
             }
 
             .articleHeader {
-                background-image: url("file://C:/Users/Aalhad/Documents/Stuff_from_the_shelf/Assets/overall/tabBackground3.jpg");
+                background-image: url("../../Assets/overall/tabBackground3.jpg");
                 background-repeat: no-repeat;
                 background-color: white;
                  -webkit-background-size: cover;
@@ -171,6 +171,7 @@
                 margin-right:0px;
                 margin-top: 0px; 
                 box-shadow : 0 1px 4px rgba(0,0,0,.6);
+                visibility:hidden;
                 
                 
             }
@@ -219,7 +220,33 @@
                height: auto;
                width: 300px;
                z-index: 1;
-               top: 30%;
+               top: 10%;
+               left:0;
+            }
+            #info 
+            {
+                position: absolute;
+                padding: 20px;
+                height: auto;
+                width: 600px;
+                line-height: 30px;
+                left: 27%;
+                z-index: 1;
+                bottom:0%;
+                background-color:rgba(0,0,0,0.6);
+                font-family: 'Oswald', sans-serif;
+                
+                font-size: 1.0em;    
+                color: #fff;         
+            }
+
+
+            #navbar_container{
+               position: absolute;
+               height: auto;
+               width: 220px;
+               z-index: 1;
+               top: 10%;
                left:0;
             }
             #navClass body {
